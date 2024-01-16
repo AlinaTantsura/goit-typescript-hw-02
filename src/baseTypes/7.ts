@@ -4,18 +4,18 @@
 */
 
 enum WeekDays{
-  Monday = "Monday",
-  Tuesday = "Tuesday",
-  Wednesday = "Wednesday",
-  Thursday = "Thursday",
-  Friday = "Friday",
-  Saturday = "Saturday",
-  Sunday = "Sunday"
+  monday = "Monday",
+  tuesday = "Tuesday",
+  wednesday = "Wednesday",
+  thursday = "Thursday",
+  friday = "Friday",
+  saturday = "Saturday",
+  sunday = "Sunday"
 }
 
-function isWeekend(day: WeekDays) : boolean{
+function isWeekend(day: string) : boolean{
   if (day === "Saturday" || "Sunday") return true
   return false;
 };
 
-isWeekend(WeekDays.Monday)
+isWeekend(WeekDays.monday)
